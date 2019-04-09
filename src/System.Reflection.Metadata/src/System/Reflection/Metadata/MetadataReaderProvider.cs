@@ -5,11 +5,11 @@
 using System.Collections.Immutable;
 using System.Diagnostics;
 using System.IO;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 using System.Text;
 using System.Threading;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Provides a <see cref="MetadataReader"/> metadata stored in an array of bytes, a memory block, or a stream.

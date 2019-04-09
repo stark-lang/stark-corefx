@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 
-namespace System.Reflection.Metadata.Ecma335
+namespace System.Reflection.Stark.Metadata.Ecma335
 {
     internal readonly struct ModuleTableReader
     {

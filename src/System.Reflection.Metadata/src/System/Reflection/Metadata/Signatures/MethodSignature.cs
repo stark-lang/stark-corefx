@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Immutable;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Metadata;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Represents a method (definition, reference, or standalone) or property signature.

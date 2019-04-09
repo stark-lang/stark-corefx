@@ -4,7 +4,7 @@
 
 using System.Collections.Immutable;
 
-namespace System.Reflection.Metadata.Ecma335
+namespace System.Reflection.Stark.Metadata.Ecma335
 {
     internal sealed class SerializedMetadata
     {

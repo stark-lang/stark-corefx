@@ -4,9 +4,9 @@
 
 using System.Collections.Immutable;
 using System.Diagnostics;
-using System.Reflection.Metadata.Ecma335;
+using System.Reflection.Stark.Metadata.Ecma335;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     public struct NamespaceDefinition
     {

@@ -4,7 +4,7 @@
 
 using System.Diagnostics;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     internal static class BitArithmetic
     {

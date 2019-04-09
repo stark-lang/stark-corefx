@@ -5,7 +5,7 @@
 using System.Diagnostics;
 using System.IO;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Represents raw memory owned by an external object. 

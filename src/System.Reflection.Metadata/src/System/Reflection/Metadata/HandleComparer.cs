@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     public sealed class HandleComparer : IEqualityComparer<Handle>, IComparer<Handle>, IEqualityComparer<EntityHandle>, IComparer<EntityHandle>
     {

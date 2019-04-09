@@ -5,7 +5,7 @@
 using System.Collections.Immutable;
 using System.Runtime.InteropServices;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Provides tools for using <see cref="ImmutableArray{Byte}"/> in interop scenarios.

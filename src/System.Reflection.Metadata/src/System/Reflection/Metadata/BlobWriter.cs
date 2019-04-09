@@ -5,10 +5,10 @@
 using System.Collections.Immutable;
 using System.Diagnostics;
 using System.IO;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 using System.Runtime.InteropServices;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     // TODO: argument checking
     public unsafe struct BlobWriter

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Diagnostics;
 
-namespace System.Reflection.Metadata.Ecma335
+namespace System.Reflection.Stark.Metadata.Ecma335
 {
     public sealed class MetadataAggregator
     {

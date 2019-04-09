@@ -4,9 +4,9 @@
 
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 
-namespace System.Reflection.Metadata.Ecma335
+namespace System.Reflection.Stark.Metadata.Ecma335
 {
     /// <summary>
     /// Provides extension methods for working with certain raw elements of the ECMA-335 metadata tables and heaps.

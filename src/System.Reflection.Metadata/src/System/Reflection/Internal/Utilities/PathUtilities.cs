@@ -5,7 +5,7 @@
 using System.Diagnostics;
 using System.IO;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     internal static class PathUtilities
     {

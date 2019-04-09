@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Immutable;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Metadata;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Represents a disposable blob of memory accessed via unsafe pointer.

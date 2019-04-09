@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     partial class BlobBuilder
     {

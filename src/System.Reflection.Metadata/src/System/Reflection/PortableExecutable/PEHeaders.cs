@@ -4,11 +4,11 @@
 
 using System.Collections.Immutable;
 using System.IO;
-using System.Reflection.Internal;
-using System.Reflection.Metadata;
-using System.Reflection.Metadata.Ecma335;
+using System.Reflection.Stark.Internal;
+using System.Reflection.Stark.Metadata;
+using System.Reflection.Stark.Metadata.Ecma335;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     /// <summary>
     /// An object used to read PE (Portable Executable) and COFF (Common Object File Format) headers from a stream.

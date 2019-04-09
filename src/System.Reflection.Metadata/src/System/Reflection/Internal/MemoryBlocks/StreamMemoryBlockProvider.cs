@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Threading;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Represents data read from a stream.

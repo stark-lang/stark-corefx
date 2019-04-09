@@ -5,7 +5,7 @@
 using System.Collections.Immutable;
 using System.Diagnostics;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     public readonly struct MethodSpecification
     {

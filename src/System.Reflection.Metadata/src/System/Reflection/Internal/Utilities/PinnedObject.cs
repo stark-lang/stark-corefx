@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     internal sealed class PinnedObject : CriticalDisposableObject
     {

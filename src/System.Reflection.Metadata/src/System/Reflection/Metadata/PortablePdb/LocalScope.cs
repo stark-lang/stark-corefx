@@ -4,13 +4,13 @@
 
 using System.Diagnostics;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Scope of local variables and constants. Stored in debug metadata.
     /// </summary>
     /// <remarks>
-    /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#localscope-table-0x32.
+    /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#localscope-table-0x32.
     /// </remarks>
     public readonly struct LocalScope
     {

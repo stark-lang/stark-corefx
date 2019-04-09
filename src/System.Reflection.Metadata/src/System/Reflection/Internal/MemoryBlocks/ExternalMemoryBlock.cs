@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Class representing raw memory but not owning the memory.

@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using System.Reflection.Metadata;
-using System.Reflection.Metadata.Ecma335;
+using System.Reflection.Stark.Metadata;
+using System.Reflection.Stark.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 
-namespace System.Reflection
+namespace System.Reflection.Stark
 {
     // This file defines an internal class used to throw exceptions. The main purpose is to reduce code size.
     // Also it improves the likelihood that callers will be inlined.

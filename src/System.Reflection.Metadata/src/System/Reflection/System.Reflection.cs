@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace System.Reflection
+namespace System.Reflection.Stark
 {
     [Flags]
     public enum MethodSemanticsAttributes
@@ -209,7 +209,7 @@ namespace System.Reflection
         WindowsRuntime = 0x00000200,
 
         /// <summary>
-        /// Content type mask. Masked bits correspond to values of <see cref="System.Reflection.AssemblyContentType"/>.
+        /// Content type mask. Masked bits correspond to values of <see cref="System.Reflection.Stark.AssemblyContentType"/>.
         /// </summary>
         ContentTypeMask = 0x00000e00,
 

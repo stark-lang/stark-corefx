@@ -5,7 +5,7 @@
 using System.Diagnostics;
 using System.Text;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// The usage is:

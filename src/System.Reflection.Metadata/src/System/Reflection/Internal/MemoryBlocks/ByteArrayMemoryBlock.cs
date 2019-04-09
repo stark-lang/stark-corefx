@@ -5,7 +5,7 @@
 using System.Collections.Immutable;
 using System.Diagnostics;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Represents a memory block backed by an array of bytes.

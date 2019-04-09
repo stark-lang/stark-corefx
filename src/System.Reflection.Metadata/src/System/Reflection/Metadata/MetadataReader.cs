@@ -5,11 +5,11 @@
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Diagnostics;
-using System.Reflection.Internal;
-using System.Reflection.Metadata.Ecma335;
+using System.Reflection.Stark.Internal;
+using System.Reflection.Stark.Metadata.Ecma335;
 using System.Text;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Reads metadata as defined byte the ECMA 335 CLI specification.

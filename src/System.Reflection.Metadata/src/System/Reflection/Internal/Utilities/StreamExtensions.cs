@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     internal static class StreamExtensions
     {

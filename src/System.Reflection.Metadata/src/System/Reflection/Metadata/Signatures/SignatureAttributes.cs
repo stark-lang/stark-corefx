@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Specified additional flags that can be applied to method signatures.

@@ -5,10 +5,10 @@
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Diagnostics;
-using System.Reflection.Internal;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Internal;
+using System.Reflection.Stark.Metadata;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     public abstract class PEBuilder
     {

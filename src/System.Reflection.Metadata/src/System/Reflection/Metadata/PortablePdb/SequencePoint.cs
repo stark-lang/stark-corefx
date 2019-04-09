@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     [DebuggerDisplay("{GetDebuggerDisplay(),nq}")]
     public readonly struct SequencePoint : IEquatable<SequencePoint>

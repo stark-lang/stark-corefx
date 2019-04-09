@@ -5,7 +5,7 @@
 using System.Collections.Immutable;
 using System.Diagnostics;
 
-namespace System.Reflection.Metadata.Ecma335
+namespace System.Reflection.Stark.Metadata.Ecma335
 {
     /// <summary>
     /// Builder of a Metadata Root to be embedded in a Portable Executable image.

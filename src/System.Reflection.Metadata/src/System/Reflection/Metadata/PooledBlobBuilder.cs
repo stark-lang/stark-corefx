@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     internal sealed class PooledBlobBuilder : BlobBuilder
     {

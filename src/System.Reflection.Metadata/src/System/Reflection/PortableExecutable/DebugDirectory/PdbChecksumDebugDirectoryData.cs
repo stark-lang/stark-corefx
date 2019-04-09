@@ -5,7 +5,7 @@
 using System.Collections.Immutable;
 using System.Diagnostics;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     public readonly struct PdbChecksumDebugDirectoryData
     {

@@ -1,3 +1,4 @@
+#if NETCOREAPP
 // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
@@ -5,11 +6,11 @@
 using System.Buffers;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Metadata;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Provides helpers to decode strings from unmanaged memory to System.String while avoiding
@@ -68,3 +69,4 @@ namespace System.Reflection.Internal
         }
     }
 }
+#endif

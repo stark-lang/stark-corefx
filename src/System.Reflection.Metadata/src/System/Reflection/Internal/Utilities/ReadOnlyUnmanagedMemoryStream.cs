@@ -5,7 +5,7 @@
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     internal unsafe sealed class ReadOnlyUnmanagedMemoryStream : Stream
     {

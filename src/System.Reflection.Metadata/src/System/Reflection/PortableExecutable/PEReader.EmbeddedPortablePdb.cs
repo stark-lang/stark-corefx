@@ -5,14 +5,14 @@
 using System.Collections.Immutable;
 using System.Diagnostics;
 using System.IO;
-using System.Reflection.Internal;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Internal;
+using System.Reflection.Stark.Metadata;
 using System.Runtime.ExceptionServices;
 using System.Threading;
 
 using System.IO.Compression;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     /// <summary>
     /// Portable Executable format reader.

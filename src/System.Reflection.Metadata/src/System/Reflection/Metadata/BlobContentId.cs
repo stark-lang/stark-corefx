@@ -4,9 +4,9 @@
 
 using System.Collections.Generic;
 using System.Collections.Immutable;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     public readonly struct BlobContentId : IEquatable<BlobContentId>
     {

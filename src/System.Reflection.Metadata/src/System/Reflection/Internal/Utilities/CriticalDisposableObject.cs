@@ -3,7 +3,7 @@
 // See the LICENSE file in the project root for more information.
 using System.Runtime.ConstrainedExecution;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     internal abstract class CriticalDisposableObject : CriticalFinalizerObject, IDisposable
     {

@@ -1,10 +1,11 @@
-﻿// Licensed to the .NET Foundation under one or more agreements.
+﻿#if NETSTANDARD11
+// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
 using System.Runtime.InteropServices;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     // HACK: CriticalFinalizerObject is not available in netstandard 1.x
     // Use CriticalHandle instead -- we don't actually use the handle,
@@ -38,3 +39,4 @@ namespace System.Reflection.Internal
         protected abstract void Release();
     }
 }
+#endif

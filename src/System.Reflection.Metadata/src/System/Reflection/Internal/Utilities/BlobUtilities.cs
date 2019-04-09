@@ -5,11 +5,11 @@
 using System;
 using System.Collections.Immutable;
 using System.Diagnostics;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace System.Reflection
+namespace System.Reflection.Stark
 {
     internal static unsafe class BlobUtilities
     {

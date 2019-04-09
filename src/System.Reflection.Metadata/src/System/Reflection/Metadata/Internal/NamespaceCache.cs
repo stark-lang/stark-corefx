@@ -7,7 +7,7 @@ using System.Collections.Immutable;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace System.Reflection.Metadata.Ecma335
+namespace System.Reflection.Stark.Metadata.Ecma335
 {
     internal class NamespaceCache
     {

@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace System.Reflection.Metadata.Ecma335
+namespace System.Reflection.Stark.Metadata.Ecma335
 {
     // Container for virtual heap blobs that unpins handles on finalization.
     // This is not handled via dispose because the only resource is managed memory

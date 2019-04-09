@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Diagnostics;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     internal sealed class ByteSequenceComparer : IEqualityComparer<byte[]>, IEqualityComparer<ImmutableArray<byte>>
     {

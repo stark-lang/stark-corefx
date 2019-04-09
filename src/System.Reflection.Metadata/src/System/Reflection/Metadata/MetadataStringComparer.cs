@@ -5,7 +5,7 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Provides string comparison helpers to query strings in metadata while

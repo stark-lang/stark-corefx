@@ -4,7 +4,7 @@
 
 using System.Collections.Immutable;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     public readonly struct CustomAttributeValue<TType>
     {

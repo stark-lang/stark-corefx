@@ -4,9 +4,9 @@
 
 using System.Collections.Generic;
 using System.Collections.Immutable;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Metadata;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     public sealed partial class DebugDirectoryBuilder
     {

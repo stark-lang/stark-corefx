@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using System.Reflection.Internal;
-using System.Reflection.Metadata.Ecma335;
+using System.Reflection.Stark.Internal;
+using System.Reflection.Stark.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     [DebuggerDisplay("{GetDebuggerDisplay(),nq}")]
     public unsafe struct BlobReader

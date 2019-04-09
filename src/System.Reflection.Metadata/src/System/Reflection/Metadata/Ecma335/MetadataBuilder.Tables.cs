@@ -5,9 +5,9 @@
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Diagnostics;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 
-namespace System.Reflection.Metadata.Ecma335
+namespace System.Reflection.Stark.Metadata.Ecma335
 {
     partial class MetadataBuilder
     {
@@ -1208,18 +1208,18 @@ namespace System.Reflection.Metadata.Ecma335
         /// </summary>
         /// <param name="name">
         /// Document Name blob.
-        /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#document-name-blob
+        /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#document-name-blob
         /// </param>
         /// <param name="hashAlgorithm">
         /// GUID of the hash algorithm used to calculate the value of <paramref name="hash"/>.
-        /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#document-table-0x30 for common values.
+        /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#document-table-0x30 for common values.
         /// </param>
         /// <param name="hash">
         /// The hash of the document content.
         /// </param>
         /// <param name="language">
         /// GUID of the language.
-        /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#document-table-0x30 for common values.
+        /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#document-table-0x30 for common values.
         /// </param>
         public DocumentHandle AddDocument(BlobHandle name, GuidHandle hashAlgorithm, BlobHandle hash, GuidHandle language)
         {
@@ -1242,7 +1242,7 @@ namespace System.Reflection.Metadata.Ecma335
         /// </param>
         /// <param name="sequencePoints">
         /// Sequence Points blob, or nil if the method doesn't have sequence points.
-        /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#sequence-points-blob.
+        /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#sequence-points-blob.
         /// </param>
         public MethodDebugInformationHandle AddMethodDebugInformation(DocumentHandle document, BlobHandle sequencePoints)
         {
@@ -1318,7 +1318,7 @@ namespace System.Reflection.Metadata.Ecma335
         /// </summary>
         /// <param name="name">Name of the variable.</param>
         /// <param name="signature">
-        /// LocalConstantSig blob, see https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#localconstantsig-blob. 
+        /// LocalConstantSig blob, see https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#localconstantsig-blob. 
         /// </param>
         public LocalConstantHandle AddLocalConstant(StringHandle name, BlobHandle signature)
         {
@@ -1336,7 +1336,7 @@ namespace System.Reflection.Metadata.Ecma335
         /// </summary>
         /// <param name="parentScope">Parent scope handle.</param>
         /// <param name="imports">
-        /// Imports blob, see https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#imports-blob. 
+        /// Imports blob, see https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#imports-blob. 
         /// </param>
         public ImportScopeHandle AddImportScope(ImportScopeHandle parentScope, BlobHandle imports)
         {

@@ -4,11 +4,11 @@
 
 using System.Collections.Immutable;
 using System.Diagnostics;
-using System.Reflection.Internal;
-using System.Reflection.Metadata.Ecma335;
+using System.Reflection.Stark.Internal;
+using System.Reflection.Stark.Metadata.Ecma335;
 using System.Runtime.InteropServices;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     public sealed class MethodBodyBlock
     {

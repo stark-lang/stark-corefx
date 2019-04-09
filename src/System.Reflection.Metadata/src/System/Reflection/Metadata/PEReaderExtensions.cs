@@ -4,13 +4,13 @@
 
 using System.ComponentModel;
 using System.IO;
-using System.Reflection.PortableExecutable;
+using System.Reflection.Stark.PortableExecutable;
 using System.Text;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
-    // EditorBrowsable(Never) so that we don't clutter completion list with this type because a user that only has System.Reflection.Metadata 
-    // imported and has type PE is likely looking to resolve PEReader from the System.Reflection.PortableExecutable and not looking to invoke
+    // EditorBrowsable(Never) so that we don't clutter completion list with this type because a user that only has System.Reflection.Stark.Metadata 
+    // imported and has type PE is likely looking to resolve PEReader from the System.Reflection.Stark.PortableExecutable and not looking to invoke
     // these extensions as regular statics.
     [EditorBrowsable(EditorBrowsableState.Never)]
     public static class PEReaderExtensions

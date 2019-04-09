@@ -4,11 +4,11 @@
 
 using System.Diagnostics;
 using System.IO;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Metadata;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     /// <summary>
     /// Simple BinaryReader wrapper to:

@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 using System.Text;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Provides the <see cref="MetadataReader"/> with a custom mechanism for decoding

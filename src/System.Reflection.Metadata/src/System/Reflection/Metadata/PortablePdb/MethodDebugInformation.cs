@@ -4,13 +4,13 @@
 
 using System.Diagnostics;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Debug information associated with a method definition. Stored in debug metadata.
     /// </summary>
     /// <remarks>
-    /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#methoddebuginformation-table-0x31.
+    /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#methoddebuginformation-table-0x31.
     /// </remarks>
     public readonly struct MethodDebugInformation
     {

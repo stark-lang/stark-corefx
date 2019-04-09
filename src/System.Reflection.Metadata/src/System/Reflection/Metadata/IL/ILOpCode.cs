@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     public enum ILOpCode : ushort
     {
@@ -197,6 +197,7 @@ namespace System.Reflection.Metadata
         Leave_s = 0xde,
         Stind_i = 0xdf,
         Conv_u = 0xe0,
+        Ldtarg = 0xe1,
         Arglist = 0xfe00,
         Ceq = 0xfe01,
         Cgt = 0xfe02,

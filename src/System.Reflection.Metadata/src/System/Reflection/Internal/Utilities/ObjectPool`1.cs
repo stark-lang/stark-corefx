@@ -4,7 +4,7 @@
 
 using System.Threading;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Generic implementation of object pooling pattern with predefined pool size limit. The main

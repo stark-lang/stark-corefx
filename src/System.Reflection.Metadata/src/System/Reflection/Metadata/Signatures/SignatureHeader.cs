@@ -4,7 +4,7 @@
 
 using System.Text;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Represents the signature characteristics specified by the leading byte of signature blobs.

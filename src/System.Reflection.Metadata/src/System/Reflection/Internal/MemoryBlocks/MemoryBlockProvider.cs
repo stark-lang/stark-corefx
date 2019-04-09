@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.IO;
-using System.Reflection.PortableExecutable;
+using System.Reflection.Stark.PortableExecutable;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     internal abstract class MemoryBlockProvider : IDisposable
     {

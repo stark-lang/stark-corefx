@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using System.Collections.Immutable;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Replacements for System.Linq to avoid an unnecessary dependency. 

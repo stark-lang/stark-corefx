@@ -5,7 +5,7 @@
 using System.Diagnostics;
 using System.IO;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     internal static class LightUpHelper
     {

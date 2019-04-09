@@ -6,9 +6,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Diagnostics;
-using System.Reflection.Metadata.Ecma335;
+using System.Reflection.Stark.Metadata.Ecma335;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Represents generic type parameters of a method or type.

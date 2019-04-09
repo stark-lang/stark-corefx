@@ -4,11 +4,11 @@
 
 using System.Collections.Immutable;
 using System.Diagnostics;
-using System.Reflection.Internal;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Internal;
+using System.Reflection.Stark.Metadata;
 using System.Runtime.InteropServices;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     public readonly struct PEMemoryBlock
     {

@@ -4,13 +4,13 @@
 
 using System.Diagnostics;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Local variable. Stored in debug metadata.
     /// </summary>
     /// <remarks>
-    /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#localvariable-table-0x33.
+    /// See https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#localvariable-table-0x33.
     /// </remarks>
     public readonly struct LocalVariable
     {

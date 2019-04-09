@@ -5,12 +5,12 @@
 using System.Collections.Immutable;
 using System.Diagnostics;
 using System.IO;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     [DebuggerDisplay("{GetDebuggerDisplay(),nq}")]
     public partial class BlobBuilder

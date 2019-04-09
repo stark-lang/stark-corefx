@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Metadata;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     /// <summary>
     /// Base class for PE resource section builder. Implement to provide serialization logic for native resources.

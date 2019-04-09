@@ -5,11 +5,11 @@
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Diagnostics;
-using System.Reflection.Internal;
+using System.Reflection.Stark.Internal;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace System.Reflection.Metadata.Ecma335
+namespace System.Reflection.Stark.Metadata.Ecma335
 {
     public sealed partial class MetadataBuilder
     {
@@ -300,7 +300,7 @@ namespace System.Reflection.Metadata.Ecma335
         /// <param name="value">Document name.</param>
         /// <returns>
         /// Handle to the added or existing document name blob
-        /// (see https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#DocumentNameBlob).
+        /// (see https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#DocumentNameBlob).
         /// </returns>
         /// <exception cref="ArgumentNullException"><paramref name="value"/> is null.</exception>
         public BlobHandle GetOrAddDocumentName(string value)

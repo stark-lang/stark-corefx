@@ -4,11 +4,11 @@
 
 using System.Collections.Generic;
 using System.IO;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Metadata;
 
 using System.IO.Compression;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     public sealed partial class DebugDirectoryBuilder
     {

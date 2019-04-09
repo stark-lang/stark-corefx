@@ -4,13 +4,13 @@
 
 using System.Diagnostics;
 
-namespace System.Reflection.Metadata
+namespace System.Reflection.Stark.Metadata
 {
     /// <summary>
     /// Source document in debug metadata. 
     /// </summary>
     /// <remarks>
-    /// See also https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md#document-table-0x30.
+    /// See also https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Stark.Metadata/specs/PortablePdb-Metadata.md#document-table-0x30.
     /// </remarks>
     public readonly struct Document
     {

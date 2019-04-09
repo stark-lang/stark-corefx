@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using System.Reflection.Metadata;
-using System.Reflection.Metadata.Ecma335;
+using System.Reflection.Stark.Metadata;
+using System.Reflection.Stark.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     [DebuggerDisplay("{GetDebuggerDisplay(),nq}")]
     internal unsafe readonly struct MemoryBlock

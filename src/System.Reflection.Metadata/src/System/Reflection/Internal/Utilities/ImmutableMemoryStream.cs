@@ -6,7 +6,7 @@ using System.Collections.Immutable;
 using System.Diagnostics;
 using System.IO;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     internal sealed class ImmutableMemoryStream : Stream
     {

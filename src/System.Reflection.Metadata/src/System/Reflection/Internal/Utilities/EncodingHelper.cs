@@ -4,11 +4,11 @@
 
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Metadata;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace System.Reflection.Internal
+namespace System.Reflection.Stark.Internal
 {
     /// <summary>
     /// Provides helpers to decode strings from unmanaged memory to System.String while avoiding

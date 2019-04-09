@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using System.Reflection.Internal;
-using System.Reflection.Metadata;
+using System.Reflection.Stark.Internal;
+using System.Reflection.Stark.Metadata;
 
-namespace System.Reflection.PortableExecutable
+namespace System.Reflection.Stark.PortableExecutable
 {
     /// <summary>
     /// Managed .text PE section.
